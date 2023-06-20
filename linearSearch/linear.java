@@ -10,7 +10,7 @@ public class linear {
     static int numIndex(int[] arr, int number) {
         int index = -1;
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i <= arr.length; i++) {
             if (arr[i] == number) {
                 index = i;
             } 
